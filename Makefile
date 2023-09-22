@@ -1,5 +1,7 @@
 # Here's where we'll put our Make commands
 all: directories downloads freshdata
+greeting:
+	echo 'Hello World'
 directories:
 	-mkdir tmp
 	-mkdir data
