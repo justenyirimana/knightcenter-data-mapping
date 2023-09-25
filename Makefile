@@ -1,5 +1,4 @@
 # Here's where we'll put our Make commands
-all: directories downloads freshdata
 greeting:
 	echo 'Hello World'
 directories:
@@ -12,3 +11,5 @@ downloads:
 
 freshdata:
 	node imf_to_csv.js
+
+all: directories downloads freshdata
